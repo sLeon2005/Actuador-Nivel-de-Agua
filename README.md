@@ -7,6 +7,9 @@ En este repositorio se mostrarán todos los documentos de fabricación, BOM, có
 
 ## BOM (Bill of Materials)
 
+#### ¿Qué es esta BOM?
+La **BOM (Bill of Materials)** o **Lista de Materiales** es un documento esencial para la fabricación y ensamble de la tarjeta electrónica de este proyecto. Aquí se detallan todos los componentes necesarios, incluyendo su valor, tipo de empaquetado y la cantidad requerida.
+
 | Referencia       | Valor                  | Empaquetado         | Cantidad |
 |------------------|------------------------|----------------------|----------|
 | C1, C2           | 100uF                  | 6.3mm P2.50mm        | 2        |
