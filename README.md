@@ -34,3 +34,14 @@ La **BOM (Bill of Materials)** o **Lista de Materiales** es un documento esencia
 | U3               | CH340C                 | SOIC-16              | 1        |
 | U4               | ATmega328-P            | DIP-28               | 1        |
 | Y1               | Cristal 16 MHz         | HC49-4H              | 1        |
+
+Aparte de estads piezas, también será necesario conseguir una fuente de alimentación de entre 7 a 12 Volts, una válvula solenoide y un sensor ultrasónico de distancia HC-SR04.
+
+## Funcionamiento
+
+El primer paso para empezar a usar este actuador es cablear el circuito. Empezando con la válvula solenoide, esta tiene dos terminales, y conectaremos cada una a la bornera que se encuentra en la parte inferior derecha del circuito.
+En cuanto a la alimentación, una vez que se halla encontrado una fuente con un voltaje dentro del rango adecuado (7 a 12 Volts), pele sus cables y conecte el negativo a la bornera marcada con "-" y el positivo a la bornera marcada con "+", estas dos están en la parte inferior izquierda.
+Finalmente, habrá que conectar el sensor HC-SR04, este se conectará al puerto de cuatro pines ubicado en la parte inferior central de la pantalla. El pin superior de la placa irá conectado a VCC del sensor, el 2do pin irá conectado a Trigger, el tercero a Echo, y finalmente el último pin se conecta con GND.
+El siguiente diagrama explica estas mismas conexiones:
+
+![Diagrama de cableado](https://github.com/sLeon2005/Actuador-Nivel-de-Agua/blob/main/recursos/conexiones.png?raw=true)
