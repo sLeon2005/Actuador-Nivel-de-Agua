@@ -29,5 +29,5 @@ En este repositorio se mostrarán todos los documentos de fabricación, BOM, có
 | SW1, SW2         | Botón push open dual   | 6x6mm THT            | 2        |
 | U1               | AMS1117-5.0            | SOT-223              | 1        |
 | U3               | CH340C                 | SOIC-16              | 1        |
-| U4               | ATmega328-P           | DIP-28               | 1        |
-| Y1               | Cristal                | HC49-4H              | 1        |
+| U4               | ATmega328-P            | DIP-28               | 1        |
+| Y1               | Cristal 16 MHz         | HC49-4H              | 1        |
