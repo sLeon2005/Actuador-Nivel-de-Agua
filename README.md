@@ -3,6 +3,8 @@
 
 En este repositorio se mostrarán todos los documentos de fabricación, BOM, código y manuales relacionados con el dispositivo.
 
+![Render 3D](https://github.com/sLeon2005/Actuador-Nivel-de-Agua/blob/main/render.png?raw=true)
+
 ## BOM (Bill of Materials)
 
 | Referencia       | Valor                  | Empaquetado         | Cantidad |
