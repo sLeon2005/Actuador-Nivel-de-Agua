@@ -45,3 +45,7 @@ Finalmente, habrá que conectar el sensor HC-SR04, este se conectará al puerto 
 El siguiente diagrama explica estas mismas conexiones:
 
 ![Diagrama de cableado](https://github.com/sLeon2005/Actuador-Nivel-de-Agua/blob/main/recursos/conexiones.png?raw=true)
+
+Una vez que ya esté cableado y montado el circuito en donde se va a usar, conéctelo a la corriente para que empiece a funcionar. Asegúrse de haber montado el sensor ultrasónico en el lugar adecuado para leer la distancia hacia el agua. El botón de "SET" será su única forma de ingresar datos a la memoria, para hacer esto, espere a que el nivel de agua llegue a la altura que se considera como lleno e inmediatamente después presione el botón "SET", el led indicador se iluminará color verde por unos pocos segundos para confirmar que se guardó la distancia. Este valor de distancia se almacenará dentro de la memoria no-volátil, por lo que aún si se desconecta el dispositivo o si se va la luz, el dato no se borrará.
+En cuanto el nivel del agua baje y sea menor que la altura guardada, la válvula solenoide se activará, es decir, permitirá pasar el flujo del agua.
+Mientras el nivel de agua sea mayor o igual al nivel guardado, la válvula no dejará fluir agua.
